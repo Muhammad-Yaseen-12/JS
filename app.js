@@ -45,3 +45,8 @@
     // console.log(Math.round(1.4));
     // console.log(Math.ceil(1.4));
     // console.log(Math.floor(10000 + Math.random() * 90000));
+
+    var num = 5;
+    num++;
+    console.log(num);
+    
