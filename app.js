@@ -25,7 +25,36 @@
 //     document.writeln(word)
 // }
 
+//---------------------------------------------------------------------------------------------------------
+//updated code
+//---------------------------------------------------------------------------------------------------------
+function btn() {
 
+    let input = document.getElementById('input');
+    let str = input.value;
+    console.log(str);
+
+    let copy = str.split(" ")
+
+    console.log(copy);
+    console.log(copy[0]);
+
+    for (let i = 0; i < copy.length; i++) {
+        console.log(i);
+        copy[i] = copy[i].charAt(0).toUpperCase() + copy[i].slice(1)
+        console.log(copy[i][0].toUpperCase());
+
+        // console.log(i);
+        // console.log(copy[i]);
+
+
+    }
+    let word = copy.join(" ")
+    // document.writeln(copy)
+    document.writeln(word)
+}
+
+//---------------------------------------------------------------------------------------------------------
 // function btn() {
 //     let input = document.getElementById("input");
 //     let value = +input.value;
